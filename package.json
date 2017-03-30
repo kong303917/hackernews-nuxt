@@ -5,7 +5,9 @@
   "author": "kong303917 <kongcheng_303917@sina.com>",
   "private": true,
   "dependencies": {
-    "nuxt": "latest"
+    "firebase": "^3.7.4",
+    "nuxt": "latest",
+    "vuex-router-sync": "^4.1.2"
   },
   "scripts": {
     "dev": "nuxt",
@@ -22,6 +24,8 @@
     "eslint-loader": "^1.6.1",
     "eslint-plugin-html": "^2.0.0",
     "eslint-plugin-promise": "^3.4.1",
-    "eslint-plugin-standard": "^2.0.1"
+    "eslint-plugin-standard": "^2.0.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1"
   }
 }
