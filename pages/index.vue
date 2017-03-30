@@ -1,4 +1,4 @@
-<template>
+<!--template>
   <section class="container">
     <div>
       <logo/>
@@ -56,4 +56,12 @@ export default {
 {
   padding-top: 15px;
 }
-</style>
+</style-->
+
+<script>
+export default {
+  data ({ redirect }) {
+    redirect('/top')
+  }
+}
+</script>
